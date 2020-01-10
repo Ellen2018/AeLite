@@ -1,4 +1,4 @@
-package com.ellen.aelitelibrary.annotation;
+package com.ellen.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

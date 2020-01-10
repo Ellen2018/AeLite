@@ -22,6 +22,8 @@ android {
         }
     }
 
+    sourceCompatibility = "1.7"  //需要指定为java7版本
+    targetCompatibility = "1.7"
 }
 
 dependencies {
@@ -32,5 +34,8 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
+    api 'com.squareup:javapoet:1.11.1'
+    api 'com.google.auto.service:auto-service:1.0-rc3'
+    api 'com.google.auto:auto-common:0.9'
     api 'com.github.Ellen2018:ZxySQLiteCreate:1.0.8'
 }
