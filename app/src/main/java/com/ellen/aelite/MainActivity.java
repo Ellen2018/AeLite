@@ -4,8 +4,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import com.ellen.sqlitecreate.createsql.create.createtable.CreateTable;
-
 public class MainActivity extends AppCompatActivity {
 
     @Override

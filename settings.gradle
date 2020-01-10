@@ -1,2 +1,2 @@
-include ':app', ':libannotation'
+include ':app', ':libannotation', ':libapt'
 rootProject.name='AeLite'
